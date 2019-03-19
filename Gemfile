@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '~> 2.5'
+
 gem 'rake'
 gem 'hanami',       '~> 1.3'
 gem 'hanami-model', '~> 1.3'
@@ -18,7 +20,7 @@ group :test, :development do
 end
 
 group :test do
-  gem 'rspec'
+  gem 'rspec', '3.7'
   gem 'capybara'
 end
 
