@@ -5,8 +5,8 @@ ruby '~> 2.5'
 gem 'rake'
 gem 'hanami',       '~> 1.3'
 gem 'hanami-model', '~> 1.3'
-
 gem 'pg'
+gem 'slim'
 
 group :development do
   # Code reloading
