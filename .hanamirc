@@ -1,0 +1,3 @@
+project=twist
+test=rspec
+template=erb
