@@ -5,5 +5,6 @@ RSpec.describe 'homepage' do
     visit '/'
 
     expect(page).to have_content('home')
+    expect(page).to have_css('.home', count: 1)
   end
 end
