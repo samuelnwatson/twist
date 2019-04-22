@@ -9,8 +9,6 @@ gem 'rake'
 gem 'slim'
 
 group :development do
-  # Code reloading
-  # See: http://hanamirb.org/guides/projects/code-reloading
   gem 'hanami-webconsole'
   gem 'shotgun', platforms: :ruby
 end
@@ -26,5 +24,4 @@ group :test do
 end
 
 group :production do
-  # gem 'puma'
 end
