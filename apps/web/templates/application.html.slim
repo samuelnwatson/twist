@@ -1,19 +1,9 @@
 doctype html
 html lang='en'
   head
-    title Twist app
+    title Twist
     = favicon
   body
-    header
-      section
-        nav role='navigation'
-          ul
-            li
-              = link_to 'Home', '/'
+    = render partial: 'layout/header'
     = yield
-    footer
-      section
-        nav role='navigation'
-          ul
-            li
-              = link_to 'Home', '/'
+    = render partial: 'layout/footer'
