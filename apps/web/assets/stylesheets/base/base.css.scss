@@ -1,0 +1,31 @@
+* {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+nav {
+  ul {
+    li {
+      display: inline;
+      margin: 0.1rem;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $deep-slate;
+}
+
+section {
+  color: $deep-slate;
+  p {
+  }
+}
+
+header {
+}
+footer {
+}
+
+a {
+  text-decoration: none;
+}

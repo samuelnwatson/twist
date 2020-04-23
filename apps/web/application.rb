@@ -1,4 +1,5 @@
 require 'hanami/helpers'
+require 'sass'
 require 'hanami/assets'
 
 module Web
@@ -138,7 +139,7 @@ module Web
         # See: http://hanamirb.org/guides/assets/compressors
         #
         # In order to skip stylesheet compression comment the following line
-        stylesheet_compressor :builtin
+        stylesheet_compressor :sass
 
         # Specify sources for assets
         #

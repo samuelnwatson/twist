@@ -2,7 +2,10 @@ doctype html
 html lang='en'
   head
     title Twist
+    = stylesheet 'application'
+    link rel='icon' href='/assets/favicon.ico'
+    link href='https://unpkg.com/pattern.css' rel='stylesheet'
   body
     = render partial: 'layout/header'
-    = yield
+    main = yield
     = render partial: 'layout/footer'
