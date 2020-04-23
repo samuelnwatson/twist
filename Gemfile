@@ -3,9 +3,12 @@ source 'https://rubygems.org'
 ruby '2.5.3'
 
 gem 'hanami',       '~> 1.3'
+gem 'hanami-assets'
 gem 'hanami-model', '~> 1.3'
 gem 'pg'
 gem 'rake'
+gem 'sassc'
+gem 'sass'
 gem 'slim'
 
 group :development do
